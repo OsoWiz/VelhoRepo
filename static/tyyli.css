@@ -90,7 +90,7 @@ body {
 
   #background{
       background-color: #55adffd0;
-      overflow: hidden;
+      overflow: auto;
       clear: both;
       height: 1800px;
       top:100px;
