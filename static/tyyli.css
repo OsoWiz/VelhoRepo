@@ -1,0 +1,104 @@
+
+#title{
+    text-align: center;
+    font-size: 200%;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transform: translateX(100%)
+}
+nav li {
+    display: inline-block;
+    text-align: center;
+    right: 0px;
+    padding-top: 10px;
+    position: relative;
+}
+
+
+.row{
+    width: 700px;
+    height: 400px;
+    z-index: 5;
+}
+
+#card1{
+    position:relative;
+    right: 300px;
+    top: 80px;
+}
+
+#card2{
+    position:relative;
+    right: 300px;
+    bottom: 200px;
+}
+
+#card3{
+    position:relative;
+    right: 300px;
+    bottom: 300px;
+}
+
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+  }
+
+  .teksti{
+      color:white;
+      text-decoration: underline rgba(92, 255, 42, 0.986) dotted;
+        font-size: 150%;
+        width:400px;
+    }
+    #teksti1{
+        position: relative;
+        bottom:340px;
+        left: 700px
+    }
+    #teksti2{
+        position: relative;
+        bottom:700px;
+        left: 700px
+    }
+    #teksti3{
+        position: relative;
+        bottom:700px;
+        left: 700px
+    }
+  main {
+    flex: 1 0 auto;
+  }
+
+#footer{
+    position: relative;
+    background-color: #ee6e73;
+    color: white;
+    text-align: center;
+    font-size:200%;
+    top: 200px;
+    height: 100px;
+    z-index: 1;
+    
+  }
+
+  #background{
+      background-color: #55adffd0;
+      overflow: hidden;
+      clear: both;
+      height: 1800px;
+      top:100px;
+      width: 80%;
+      margin: auto;
+      border-radius: 25px;
+  }
+
+  a{
+      color: white;
+  }
