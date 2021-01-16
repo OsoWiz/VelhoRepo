@@ -90,9 +90,9 @@ body {
 
   #background{
       background-color: #55adffd0;
-      overflow: auto;
+      overflow: hidden;
       clear: both;
-      height: 1800px;
+      height: 1600px;
       top:100px;
       width: 80%;
       margin: auto;
